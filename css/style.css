@@ -1,0 +1,163 @@
+
+body{margin:0;
+	line-height: 1.3em;
+
+}
+
+
+.container-top{position: relative;
+width: 70%;
+}
+
+.h{ position: absolute;
+	top: 30px;
+	left: 170px; 
+	background-color: white;
+	border-radius: 30px;
+	padding: 4px; 
+	box-shadow: 8px 8px 8px black;
+
+
+}
+.container-top h1{position: absolute;
+				top: 350px;
+				left:0px;
+
+
+}
+.container-top p{position: absolute;
+				top: 420px;
+				left:0px;
+
+}
+.container-top button{position: absolute;
+				top: 450px;
+				left:0px;
+
+}
+
+
+.testimonials{
+	position: relative;
+}
+.testimonials:before{
+	background: rgba(0,0,0,0.3);
+	background-color:;
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%; 
+
+}
+
+.box-3{background: url('../pix/photo2.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		min-height: 600px; 
+		width: 100%;
+
+
+}
+
+.box-2{background: url('../pix/ph6.jpg');
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		min-height: 500px; 
+
+}
+.box-2 h1{padding-top: 50px; 
+
+}
+
+.all-title-box{background: url('../pix/ph4.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		min-height: 300px; 
+		width: 100%;
+
+}
+
+.box-all{
+}
+
+.box-all:hover{ border: 1px solid coral; 
+				border-radius: 8px;
+				padding: 5px; }
+
+
+
+.testi-box-2{color: white;
+			text-align: center;
+			width: 40%;
+			background-color: #F75D59;
+			margin: auto;
+			padding: 10px;
+			border-radius: 8px;
+
+
+}
+
+.info{list-style-type: none; 
+	padding: 0;
+
+}
+
+.info li{padding-top: 15px;
+		text-align: left;
+		font-size: 1.1em;
+		border-bottom: 1px dotted black;
+
+}
+
+.info li a{text-decoration: none;
+			color: black;
+
+}
+
+.info li a:hover{color: #F75D59;}
+
+
+
+
+.footer{width: 100%;
+	color: black;
+	font-family: calibri;
+	font-size: 0.9em;
+
+
+}
+
+.copyright{background-color: black;
+}
+
+@media(max-width: 600px){
+
+	.container-top { width: 100%; 
+	 }
+
+	.h{ width: 80%; float: none; 
+		left: 0; right: 0; text-align: center;
+
+	}
+	.box-3 h1{ padding-top: 30%;
+	}
+		
+
+
+}
+
+
+
+
